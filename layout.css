@@ -1,0 +1,35 @@
+body {
+    background-color:hsl(217, 54%, 11%);
+    color: white;
+}
+.attribution { font-size: 11px; text-align: center; color: white; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: hsl(216, 50%, 16%);
+    max-width: 300px;
+    margin: auto;
+    font-family: 'Outfit', sans-serif;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imagem-nft {
+    padding: 25px; 
+    
+}
+
+
+
+#nft {
+    margin:1.5rem 0;
+    font-weight: 600;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+}
+
