@@ -70,13 +70,19 @@ b:hover{
     opacity: 40%;
 }
 
+.linha{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
 .eth{
     color: cyan;
     align-items: left;
     align-self: left;
     justify-content: left;
-    padding-left: 20px;
-    
+    margin-right: 90px;
+    position: relative;
 }
 
 .clock{
@@ -84,8 +90,7 @@ b:hover{
     align-items: right;
     align-self: right;
     justify-content: right;
-    display: flex;
-    padding-right: 20px;
+
 }
 
 .texto{
