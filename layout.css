@@ -4,6 +4,7 @@
 body {
     background-color:hsl(217, 54%, 11%);
     color: hsl(215, 51%, 70%);
+    flex-wrap: wrap;
 }
 .attribution { font-size: 11px; text-align: center; color: white; }
 
@@ -68,6 +69,8 @@ b:hover{
 
 .view:hover{
     opacity: 40%;
+    z-index: 10;
+    background-color: cyan;
 }
 
 .linha{
